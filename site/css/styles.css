@@ -1,13 +1,20 @@
-* {
-	background: url('hifi_img_01/background_01.jpg') no-repeat center fixed;
+@font-face {
+	font-family: hot_sauce;
+	src:  url(../fonts/Hot_Sauce.tff);
+}
+
+html {
+	background: url('../imgs/background.jpg') no-repeat center fixed;
 	background-size: cover;
 }
 
+/*
 header {
-	background-image: url(hifi_img_01/background_01.jpg);
+	background-image: url('../imgs/background.jpg');
 	height: 780px;
 	width: 100%;
 }
+*/
 
 nav {
 	align-items: center;
